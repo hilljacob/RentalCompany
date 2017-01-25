@@ -10,14 +10,11 @@
     <!-- style sheets -->
     <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <link href="directives/header/header.css" rel="stylesheet">
+    <link href="directives/footer/footer.css" rel="stylesheet">
   </head>
   <body ng-controller="mainCtrl">
-    <ul>
-      <li ui-sref="home">landing</li>
-      <li ui-sref="snow">snow</li>
-      <li ui-sref="dirt">dirt</li>
-    </ul>
-    <h1>TEST!</h1>
+    <!-- link to the views -->
     <ui-view></ui-view>
     <!-- script links -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
@@ -28,5 +25,7 @@
     <script src="controllers/landingCtrl.js"></script>
     <script src="controllers/dirtCtrl.js"></script>
     <script src="controllers/snowCtrl.js"></script>
+    <script src="directives/footer/footer.js"></script>
+    <script src="directives/header/header.js"></script>
   </body>
 </html>

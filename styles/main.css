@@ -1,7 +1,40 @@
-h1{
-  color: blue;
+body{
+  background: black;
+  font-family: "TradeGothicLTStd","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-li{
-  display: inline;
-  cursor: pointer;
+.landingWrapper{
+  max-width: 1322px;
+  min-width: 820px;
+  margin: auto;
+}
+.landingPage{
+  width: 100%;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+}
+.Jumbotron{
+  height: calc(100% - 258px);
+  min-height: 571px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/landJumbo.jpeg");
+}
+.contentHolder{
+  background: #252729;
+  display: flex;
+  flex-direction: row;
+}
+.botBoxes{
+  height: 258px;
+  width: 50%;
+  min-width: 410px;
+  background-size: cover;
+  background-position: center;
+}
+.dirt{
+  background-image: url("../img/dirt.jpeg");
+}
+.snow{
+  background-image: url("../img/snow.jpeg");
 }

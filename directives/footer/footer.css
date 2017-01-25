@@ -1,0 +1,31 @@
+.footerDirective{
+  height: 150px;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.information{
+  height: 100%;
+  width: calc(100% - 250px);
+  /*background: #868d95;*/
+  display: flex;
+  align-items: center;
+}
+.footerLi{
+  margin: 0 45px;
+  font-size: 25px;
+  color: #868d95;
+  display: inline;
+  cursor: pointer;
+}
+.botLogo{
+  height: 100%;
+  width: 250px;
+  background: #252729;
+}
+.botLogoImg{
+  height: 100%;
+  width: 250px;
+}
