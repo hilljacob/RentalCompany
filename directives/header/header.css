@@ -25,9 +25,11 @@
   font-size: 25px;
   color: white;
   margin: 0 10px 0 35px;
+  text-align: center;
 }
 .logoH1{
   margin: 5px 0px;
+  font-weight: bold;
 }
 .green{
   color: #46F350;
@@ -45,30 +47,47 @@
   flex-direction: column;
 }
 .topNav{
-  height: 25px;
-  /*background: #3d4043;*/
-  background: #252729;
 }
 .middleNav{
+  position: relative;
   height: 50px;
   background: #c7c7c7;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .angle {
- width: 0;
- height: 0;
- border-left: 30px solid #252729;
- border-bottom: 50px solid transparent;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 30px solid #252729;
+  border-bottom: 50px solid transparent;
+  align-self: flex-start;
 }
 .headerLi{
   font-size: 20px;
   color: #52585e;
-  margin: 0 15px;
-  display: inline;
+  margin: 0 30px;
+  font-weight: bold;
+}
+.headerLi:hover{
+  color: #46F350;
+  font-size: 22px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   cursor: pointer;
 }
 .bottomNav{
+}
+.navNav{
   height: 25px;
   background: #252729;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 35px;
 }
