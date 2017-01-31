@@ -1,6 +1,6 @@
 angular.module('rental').controller('dirtCtrl', function($scope){
 
-  $scope.test = "Dirt";
+  $scope.m1Price = "$250";
 
 
 })

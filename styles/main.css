@@ -9,14 +9,13 @@ body{
 }
 .landingPage{
   width: 100%;
-  background: grey;
   display: flex;
   flex-direction: column;
 }
 .Jumbotron{
   position: relative;
   height: calc(100% - 258px);
-  min-height: 571px;
+  height: 571px;
   /*background-size: cover;
   background-position: center;*/
   /*background-image: url("../img/landJumbo.jpeg");*/
@@ -91,4 +90,6 @@ body{
   cursor: pointer;
   text-align: center;
   color: #46F350;
+}
+.footerposition{
 }
